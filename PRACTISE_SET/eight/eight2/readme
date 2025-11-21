@@ -1,0 +1,24 @@
+Create a website which is capable of storing bookmarks of your favorite websites using href
+
+....................
+The rel attribute itself stands for "relationship". It describes the relationship between the current page and the linked page. Let's break down those two values, noopener and noreferrer, because they do different things.
+
+noopener (For Security 🛡️)
+This value prevents a security vulnerability called "tabnabbing."
+
+The Problem: Without noopener, a new tab you open can use JavaScript to access and even change the URL of the original tab that opened it. Imagine you click a link to a seemingly innocent website. That new tab could secretly change your original tab to a fake login page for your bank or email. You might not notice, go back to it later, and enter your password.
+
+The Solution: noopener completely severs the connection, preventing the new tab from having any control over your original tab.
+
+Analogy: Think of it like letting a guest into your house. Normally, you'd just open the door. Using noopener is like letting them in but immediately locking the door behind them so they can't mess with the room they just came from.
+
+noreferrer (For Privacy 🕵️)
+This value prevents the new website from knowing where you came from.
+
+The Problem: Normally, when you click a link, the browser sends a piece of information called an "HTTP referrer header" to the new site. This header tells the new site the URL of the page you just clicked from. This can be a privacy concern, as you might not want every website you visit to know the address of your personal bookmark page.
+
+The Solution: noreferrer tells the browser not to send that referrer information. The new site will see you as direct traffic, as if you typed their address in yourself.
+
+Analogy: This is like making a phone call with your Caller ID blocked. The person you're calling can't see what number you called from. noreferrer blocks the "Caller ID" of your website.
+
+...............................

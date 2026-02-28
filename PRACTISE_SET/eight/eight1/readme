@@ -1,0 +1,23 @@
+Write a program to show different alerts when different buttons are clicked.
+
+........................................
+
+<meta charset="UTF-8">
+This tag sets the character encoding for your webpage.
+
+What it does: It tells the browser how to interpret the text and characters on your site. UTF-8 is a universal character set that includes almost every character, symbol, and emoji from languages all around the world.
+
+Why it's important: Without this tag, browsers might guess the character encoding incorrectly, leading to garbled text (like seeing "" instead of the intended characters). It's a crucial tag for ensuring your text displays correctly for all users.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This tag controls how your webpage is displayed on mobile devices. 📱
+
+name="viewport": This specifies that you're defining the rules for the browser's viewport (the visible area of the webpage on the screen).
+
+content="width=device-width": This part sets the width of the webpage to follow the screen-width of the device. This means your site won't just be a tiny, zoomed-out version of the desktop site on a phone.
+
+initial-scale=1.0": This sets the initial zoom level to 100% when the page is first loaded. It prevents the page from being zoomed in or out by default.
+
+Essentially, this entire tag is the key to making your website responsive, ensuring it looks good and is readable on all screen sizes, from a large desktop monitor to a small smartphone.
+
+.............................................

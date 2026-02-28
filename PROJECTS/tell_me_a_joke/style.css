@@ -1,0 +1,63 @@
+/*  TAKEN FROM GEMINI (ONLY THE CSS PART) */
+
+
+
+/* --- General Page Style --- */
+
+body {
+    /* A friendly font that's available on most computers */
+    font-family: Arial, sans-serif;
+
+    /* A soft, warm background color */
+    background-color: #fdfaf6;
+
+    /* A dark gray for text, which is softer than pure black */
+    color: #444;
+
+    /* Center the title on the page */
+    text-align: center;
+
+    /* Add some space around the edges */
+    padding: 2rem;
+}
+
+
+/* --- The Main Title --- */
+
+h1 {
+    /* A fun, warm color for the heading */
+    color: #e85d04;
+    font-size: 2.5rem; /* Make the title a bit bigger */
+}
+
+
+/* --- The Joke Box --- */
+
+#jokeContainer {
+    /* A clean white background for the card */
+    background-color: #ffffff;
+
+    /* Rounded corners make it look friendlier */
+    border-radius: 15px;
+
+    /* A subtle shadow to make the card "pop" off the page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Text size for the joke */
+    font-size: 1.2rem;
+    
+    /* Spacing between lines of text for better readability */
+    line-height: 1.5;
+
+    /* This is the classic way to center a block element like a div */
+    margin: 0 auto;
+
+    /* Limit the width so it doesn't stretch too wide on big screens */
+    max-width: 500px;
+
+    /* This creates space inside the box so the text isn't at the very edge */
+    padding: 30px;
+}
+
+
+

@@ -15,6 +15,11 @@
 // slice(): Extracts a section of an array and returns a new array. It does not modify the original array.
 // reverse(): Reverses the order of the elements in an array. It modifies the original array.
 
+
+// call_back array functions .....................................
+//take callbacks as an inputs............................
+
+
 // 2. map()
 // Purpose: Transforms an array by applying a function to each element, returning a new array of the same length.
 // Return value: A new array with transformed values.
